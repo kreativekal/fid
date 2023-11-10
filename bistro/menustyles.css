@@ -1,0 +1,83 @@
+@charset "UTF-8";
+body {
+  font-family: Georgia, serif;
+  font-size: 100%;
+  line-height: 175%;
+  margin: 0 15% 0;
+  background: #fff1de  url(images/blackgoose.png) no-repeat center 100px fixed;
+}
+header {
+  margin-top: 0;
+  padding: 3em 1em 2em 1em;
+  text-align: center;
+  background: url(images/brownflower.png) center top repeat-x;
+  background-size: 60px;
+  background: 
+    url(images/brownflower.png) left top repeat-y,
+    url(images/brownflower.png) right top repeat-y,
+    url(images/gooseshadow.png) 90% bottom no-repeat;
+    background-size: 60px;
+  background-color: rgb(252, 247, 247)
+}
+
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #75c6c1;
+}
+a:visited {
+  color: rgb(29, 58, 55);
+}
+a:focus, a:hover {
+  color: #11726c;
+  background-color: #b3faeb;
+}
+a:active {
+  color: #0c5651;
+  background-color: #b3faeb;
+}
+
+h1 {
+  font: bold 1.5em Georgia, serif;
+  text-shadow: .05em .05em .1em rgb(29, 58, 55);
+  color: rgb(56, 112, 108);
+}
+h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  text-align: center;
+  color: rgb(29, 58, 55);
+}
+dt {
+  font-weight: bold;
+}
+strong {
+  font-style: italic;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#info p {
+  font-style: italic;
+}
+.price {
+  font-family: Georgia, serif;
+  font-style: italic;
+}
+p.warning, sup {
+  font-size: small;
+}
+.label {
+  font-weight: bold;
+  font-variant: small-caps;
+  font-style: normal;
+}
+
+h2 + p {
+  text-align: center;
+  font-style: italic;
+}
