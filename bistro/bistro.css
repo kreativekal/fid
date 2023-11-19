@@ -1,0 +1,97 @@
+@charset "UTF-8";
+@font-face {
+  font-family: thegreatsummerhandwritten;
+  src: url(thegreatsummerhandwritten);
+  background: #fff1de  url(images/blackgoose.png) 
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-color: #faf2e4;
+  margin: 0 10%
+  font-family sans-serif;
+  text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: thegreatsummerhandwritten;
+    font-weight: bold;
+    font-size: 3em;
+    text-transform: uppercase;
+    border-bottom: 1px solid #57b1dc;
+    margin-top: 30px;
+}
+
+h2 {
+  color: #DC7633;
+  font-size: 2em;
+  text-align: center;
+    font-family: thegreatsummerhandwritten;
+}
+h3{
+    font-size: 1.5em;
+    text-align: center;
+      font-family: thegreatsummerhandwritten;
+}
+
+p{
+    text-align: center;
+}
+a {
+    text-decoration: none;
+  }
+  a:link {
+    color: #DC7633
+  }
+  a:visited {
+    color: #aa5924
+  }
+    ul{
+		list-style-type: none;
+        padding: 10px;
+        text-align: center;
+        color:#11726c
+	}
+    td{
+		padding: 10px;
+        text-align: center;
+	}
+    tr{
+        padding: 10px;
+        text-align: center;
+    }
+    nav{
+        border-style: double;
+        border-color: #DC7633;
+        margin: 5%;
+    }
+    nav li{
+        text-transform: uppercase;
+        text-align: center;
+        font-family: thegreatsummerhandwritten;
+        display: inline;
+        padding: 14px;
+    }
+   ol li{
+    text-align: center;
+   }
+    a:hover {
+		color:  #DC7633;
+    }
+footer{
+  border-top:1px solid #57b1dc;
+  text-align: center;
+  padding-top: 1em;
+}
+footer img {
+  width: 40px;
+  height: 40px;
+  margin-left: .5em;
+  margin-right: .5em;
+}
