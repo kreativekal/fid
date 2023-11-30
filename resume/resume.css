@@ -1,0 +1,116 @@
+
+@charset "UTF-8";
+@font-face {
+  font-family: thegreatsummerhandwritten;
+  src: url(thegreatsummerhandwritten);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 1em;
+    background-color: rgb(22, 93, 215);
+    color: #191b42;
+    text-align: center;
+}
+
+header {
+    margin-top: 0;
+    padding: 2em 3em;
+    border-top:1px solid #252b9f;
+    text-align: center;
+    background-color: #32deb3;
+    background-image: url(vangogh.jpg);
+  }
+
+h1 {
+    color: #141631;
+    text-align: center;
+    font-family: thegreatsummerhandwritten;
+    font-weight: bold;
+    font-size: 5em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h2 {
+    color: #191b42;
+    font-family: thegreatsummerhandwritten;
+    font-size: 3em;
+    text-align: center;
+}
+
+h3 {
+    color: #191b42;
+    text-align: center;
+    font-family: thegreatsummerhandwritten;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+p{
+    text-align: center;
+}
+nav{
+    border-style: double;
+    border-color: #191b42;
+    margin: 5%;
+}
+nav li{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: thegreatsummerhandwritten;
+    font-size: 1.5em;
+    display: inline;
+    padding: 14px;
+}
+table{
+        text-align: center;
+        padding: 10px;
+    
+	}
+
+    ul{
+		list-style-type: none;
+        padding: 10px;
+        text-align: center;
+        color:rgb(251, 246, 215);
+	}
+    td{
+		padding: 10px;
+        text-align: center;
+	}
+    tr{
+        padding: 10px;
+        text-align: center;
+    }
+    li{
+        padding: 10px;
+        text-align: center;
+        color: #191b42;
+    }
+    a{
+        color: #191b42;
+        text-align: center;
+        text-decoration: none;
+    }
+    a:hover {
+		color: #252b9f;
+
+    }
+footer{
+  border-top:1px solid #252b9f;
+  text-align: center;
+  padding-top: 1em;
+}
+footer img {
+  width: 40px;
+  height: 40px;
+  margin-left: .5em;
+  margin-right: .5em;
+}
